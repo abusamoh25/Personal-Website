@@ -2,6 +2,7 @@ a {
     color: #11999E;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    margin-right: 50px;
 }
 
 body {
@@ -41,15 +42,14 @@ h3 {
 
 }
 
-.middle-container {
-    
-}
+.middle-container {}
 
 .bottom-container {
-    background-color: #E4F9F5;
+    background-color: #66BFBF;
     margin-top: 3em;
     margin-bottom: 0px;
-    padding-bottom: 0px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -80,4 +80,92 @@ p {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.develop {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 5px;
+    width: 3%;
+    margin: 5rem auto 5rem auto;
+}
+
+.profile {
+    margin-top: 4rem;
+}
+
+.descp {
+    width: 25%;
+    margin: auto;
+    line-height: 2;
+}
+
+.BUTTON_MKV {
+    margin: 2rem auto;
+
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+    background-image: -moz-linear-gradient(top, #11999E, #11999E);
+    background-image: -ms-linear-gradient(top, #11999E, #11999E);
+    background-image: -o-linear-gradient(top, #11999E, #11999E);
+    background-image: linear-gradient(to bottom, #11999E, #11999E);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    width: 167px;
+    font-size: 22px;
+    font-weight: 100;
+    padding: 15px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.BUTTON_MKV:hover {
+    border: solid #000000 1px;
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #000000);
+    background-image: -moz-linear-gradient(top, #000000, #000000);
+    background-image: -ms-linear-gradient(top, #000000, #000000);
+    background-image: -o-linear-gradient(top, #000000, #000000);
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
